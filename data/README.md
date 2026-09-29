@@ -53,5 +53,6 @@ ESTATUS solo tiene 2 valores únicos ("Cifras Definitivas" | "Cifras Preliminare
 
 Al final se llego a la conclusión de que el mejor metodo para predecir bajo la naturaleza de este data set fue regresión lineal. No obstante, el modelo no puede ocupar la información de todo el set debido a que a lo largo del 2008 y 2021 ocurrieron fenomenos que mueven las metricas de manera abismal.
 
-Por lo que solamente se ocuparon dato del 2022 al 2025, dando un margen de explicación del 50% de los datos en la regresión lineal
+Por lo que solamente se ocuparon dato del 2022 al 2025, dando un margen de explicación del 50% de los datos en la regresión lineal.
+
 Desarrollado con ❤️ por [XxRaliugaRdzxX](github.com/XxRaliugaRdzxX/)

@@ -12,7 +12,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 df = pd.read_csv('../data/dataset_consolidado.csv')
 
 # Filtramos ventas válidas y acotamos a la época de estabilización (2022 en adelante)
-df_clean = df[(df['UNI_VEH'] > 0) & (df['ANIO'] >= 2022)].copy()
+df_clean = df[(df['UNI_VEH'] > 0) & (df['ANIO'] >= 2021)].copy()
 
 print(f"Filas tras aplicar filtro temporal (2022-2026): {len(df_clean)}")
 
